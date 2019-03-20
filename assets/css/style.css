@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+    background-color: orange;
+    padding: 20px;
+    margin-right: 2% 60% 2% 2%;
+}
+
+.container {
+    background-color: rgb(238, 238, 99);
+    color: green;
+    padding: 20px;
+}
+
+.random-number {
+    padding: 2px 20px 20px 2px;
+    background-color: rgb(93, 180, 93);
+    color: rgb(124, 47, 60);
+}
+
+.scores {
+    background-color: aqua;
+    color: green;
+    padding: 2px 20px 20px 2px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+img {
+    height: 100px;
+}
+
+.total {
+    color: white;
+    background-color: cadetblue;
+    padding: 2px 20px 20px 2px;
+}
