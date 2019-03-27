@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="background-image:url(assets/images/congruent_pentagon.png")>
+<body style="background-image:url(assets/images/congruent_pentagon.png)">
    
     <div>
         <h1><strong>Crystals Collector!</strong></h1>
@@ -26,47 +26,36 @@
     </div>
 
     <br>
-    <div class="row">
-        <div class="column">
-            <div class="random-number">
-                number
-            </div>
-        </div>
 
-        <br>
-
-        <div class="column">
-            <div class="scores">
-                Wins: 
-                Losses:
-            </div>
-        </div>
+    <div class="random-number">
+        <div id="random-number"></div>
     </div>
 
-    <br>
+    <div class="scores">
+        <p><span id="message"></span></p>
+        <p>Wins: <span id="numberWins"></span></p>
+        <p>Losses: <span id="numberLosses"></span></p>
+    </div>
+
 
     <div class="crystals">
-        <img src="assets/images/orange.png" alt="orange crystal">
-        <img src="assets/images/purple.png" alt="purple crystal">
-        <img src="assets/images/red.png" alt="red crystal">
-        <img src="assets/images/yellow.png" alt="yellow crystal">
+        <img src="assets/images/orange.png" id="orange" alt="orange crystal">
+        <img src="assets/images/purple.png" id="purple" alt="purple crystal">
+        <img src="assets/images/red.png" id="red" alt="red crystal">
+        <img src="assets/images/yellow.png" id="yellow" alt="yellow crystal">
     </div>
 
-    <br>
 
-    <div class="total">
+    <div id="userTotal">
         <h4>Your total score is: </h4>
+        <div id="total">
+        </div>
     </div>
-
-    <br>
-
-    <div class="total">
-        number
-    </div>
-
 
 </body>
 
+<!-- JQuery Documentation linked -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 <!-- Javascript file linked -->
 <script src="assets/javascript/game.js"></script>
 
